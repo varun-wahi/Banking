@@ -33,6 +33,10 @@ public class Main {
                     System.out.println("Thank you for using our services! We'll see you soon!");
                     running = false;
                 }
+                default -> {
+                    System.out.println("Invalid Option. Try Again!");
+                    //throw new IllegalStateException("Unexpected value: " + choice);
+                }
             }
         }
 
