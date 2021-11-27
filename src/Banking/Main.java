@@ -1,4 +1,4 @@
-package Learners;
+package Banking;
 
 import java.util.Scanner;
 
